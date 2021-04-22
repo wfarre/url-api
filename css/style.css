@@ -136,6 +136,17 @@ p {
   color: red;
 }
 
+.MuiCircularProgress-colorPrimary {
+  color: #2acfcf !important;
+}
+
+.progress {
+  position: relative;
+  left: 34rem;
+  bottom: 6rem;
+  display: block;
+}
+
 #output {
   background-color: #f2f2f2;
   position: relative;
@@ -170,7 +181,7 @@ p {
   width: 90%;
   height: 1rem;
   background-color: #2acfcf;
-  z-index: -1;
+  z-index: 0;
   position: relative;
   top: -7rem;
   left: 3rem;
@@ -204,6 +215,7 @@ p {
   padding: 1rem;
   border: 1px solid;
   border-radius: 0.5rem;
+  z-index: 1;
 }
 .card-container .card ~ .card {
   top: 2rem;
@@ -276,10 +288,10 @@ p {
   color: #2acfcf;
 }
 
-.icon {
+.social-icon {
   margin-right: 1rem;
 }
-.icon:hover {
+.social-icon:hover {
   filter: invert(10%) sepia(100%) saturate(5969%) hue-rotate(150deg) brightness(100%) contrast(87%);
   cursor: pointer;
 }
